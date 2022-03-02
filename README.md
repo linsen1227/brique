@@ -1,10 +1,18 @@
 # Usage
-项目启动
 ```
+// 项目启动
 yarn start <project>
+
+// 创建app
+yarn g-app <project>
+
+// 空跑app
+yarn g-app <project> --dry-run
+
+// 删除app或domain
+yarn rm <project>
 ```
 
 # TodoList
-- [ ] git-flow 模型
-
-demo
+- [x] git-flow 模型
+- [ ] app层构建

@@ -1,6 +1,6 @@
 {
-  "root": "domains/mylibrary",
-  "sourceRoot": "domains/mylibrary/src",
+  "root": "domains/lib",
+  "sourceRoot": "domains/lib/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -8,14 +8,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["domains/mylibrary/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["domains/lib/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/domains/mylibrary"],
+      "outputs": ["coverage/domains/lib"],
       "options": {
-        "jestConfig": "domains/mylibrary/jest.config.js",
+        "jestConfig": "domains/lib/jest.config.js",
         "passWithNoTests": true
       }
     }

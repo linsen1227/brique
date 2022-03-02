@@ -1,9 +1,9 @@
 module.exports = {
-  displayName: 'mylibrary',
+  displayName: 'lib',
   preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/domains/mylibrary',
+  coverageDirectory: '../../coverage/domains/lib',
 };
