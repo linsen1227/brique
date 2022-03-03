@@ -15,4 +15,4 @@ yarn rm <project>
 
 # TodoList
 - [x] git-flow 模型
-- [ ] app层构建
+- [x] app层构建
