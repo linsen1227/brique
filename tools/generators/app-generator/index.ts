@@ -17,8 +17,8 @@ function deleteDir (tree: Tree, schema: any, path: string) {
   const projectDirectory = schema.directory
     ? `${names(schema.directory).fileName}/${name}`
     : name;
-  const { libsDir, npmScope } = getWorkspaceLayout(tree);
-  const projectRoot = joinPathFragments(libsDir, projectDirectory);
+  const { libsDir, npmScope, appsDir } = getWorkspaceLayout(tree);
+  const projectRoot = joinPathFragments(appsDir, projectDirectory);
   tree.delete(join(projectRoot, path));
 }
 
@@ -32,7 +32,7 @@ export default async function (tree: Tree, schema: any) {
     linter: 'eslint' as any
   });
 
-  // deleteDir(tree, schema, 'src');
+  deleteDir(tree, schema, 'src/app');
 
   const libraryRoot = readProjectConfiguration(tree, schema.name).root;
   generateFiles(
