@@ -3,8 +3,6 @@
   "projects": {
     "app": "apps/app",
     "app-e2e": "apps/app-e2e",
-    "lib": "domains/lib",
-    "my-app": "apps/my-app",
-    "test": "apps/test"
+    "lib": "domains/lib"
   }
 }
