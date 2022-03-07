@@ -13,7 +13,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     }
   },
   "private": true,
@@ -51,6 +51,7 @@
     "commitizen": "^4.2.4",
     "cypress": "^9.1.0",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "eslint": "~8.7.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
