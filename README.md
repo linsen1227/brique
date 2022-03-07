@@ -11,6 +11,9 @@ yarn g-app <project> --dry-run
 
 // 删除app或domain
 yarn rm <project>
+
+// 提交commit请使用
+yarn commit
 ```
 
 test
