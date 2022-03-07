@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Mylibrary from './mylibrary';
+import Comp from './comp';
 
-describe('Mylibrary', () => {
+describe('Comp', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Mylibrary />);
+    const { baseElement } = render(<Comp />);
     expect(baseElement).toBeTruthy();
   });
 });

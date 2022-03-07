@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@devops-fe/mylibrary": ["domains/mylibrary/src/index.ts"]
+      "@devops-fe/lib": ["domains/lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
