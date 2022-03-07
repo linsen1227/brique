@@ -1,6 +1,6 @@
 {
   "name": "devops-fe",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
@@ -10,7 +10,7 @@
     "rm": "nx generate remove",
     "nx": "nx",
     "commit": "git-cz",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "log": "standard-version",
     "commitlint": "commitlint"
   },
   "config": {
@@ -55,6 +55,7 @@
     "commitizen": "^4.2.4",
     "commitlint-config-cz": "^0.13.3",
     "conventional-changelog": "^3.1.25",
+    "conventional-changelog-cli": "^2.2.2",
     "cypress": "^9.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
