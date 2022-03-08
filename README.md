@@ -13,7 +13,7 @@ yarn g-app <project> --dry-run
 yarn rm <project>
 
 // 提交commit请使用
-yarn commit
+yarn gcm
 ```
 
 # TodoList
