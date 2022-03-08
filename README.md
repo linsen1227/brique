@@ -16,12 +16,11 @@ yarn rm <project>
 yarn commit
 ```
 
-test
 # TodoList
 - [x] git-flow 模型
 - [x] app层构建
 - [x] 添加antd及router
-- [ ] git cz 配置
+- [x] git cz 配置
 - [ ] css相关配置和全局reset
 - [ ] 打包方案
 - [ ] eslint配置
