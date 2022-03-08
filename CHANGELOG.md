@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://gitlab.qima-inc.com/PaaS-FE/devops-fe/compare/v0.0.3...v0.0.4) (2022-03-08)
+
+
+### Features
+
+* 去除prettier功能 ([3ed4650](https://gitlab.qima-inc.com/PaaS-FE/devops-fe/commit/3ed46502f55316f7eb9841c9af42e1ac894c7a5c))
+* 添加version ([7273cb6](https://gitlab.qima-inc.com/PaaS-FE/devops-fe/commit/7273cb62944848e14d0b98d3f8968bd5e4d7b9ff))
+
 ### [0.0.3](https://gitlab.qima-inc.com/PaaS-FE/devops-fe/compare/v0.0.2...v0.0.3) (2022-03-07)
 
 
