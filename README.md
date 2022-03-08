@@ -11,14 +11,16 @@ yarn g-app <project> --dry-run
 
 // 删除app或domain
 yarn rm <project>
+
+// 提交commit请使用
+yarn commit
 ```
 
-test
 # TodoList
 - [x] git-flow 模型
 - [x] app层构建
 - [x] 添加antd及router
-- [ ] git cz 配置
+- [x] git cz 配置
 - [ ] css相关配置和全局reset
 - [ ] 打包方案
 - [ ] eslint配置
