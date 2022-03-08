@@ -17,6 +17,10 @@ function generateDate () {
   return appendZero(year) + appendZero(month) + appendZero(date);
 }
 
+function trim (str) {
+  return str.replace(/(\r\n\t|\n|\r\t)/g, "");
+}
+
 inquirer.prompt([{
   type: 'list',
   message: '请选择分支类型',
@@ -30,7 +34,7 @@ inquirer.prompt([{
   
   const currentBranch = shell.exec('git rev-parse --abbrev-ref HEAD').stdout;
 
-  if (currentBranch.trim() !== 'master') {
+  if (trim(currentBranch) !== 'master') {
     shell.echo('Error: 请从master下拉分支');
     shell.exit(1);
   }
@@ -54,5 +58,7 @@ inquirer.prompt([{
 
   const username = shell.exec('git config user.name').stdout;
 
-  shell.exec(`git checkout -b ${branchType}/${username}-${branchName}-${generateDate()}`);
+  const fullBranchName = trim(`${branchType}/${username}-${branchName}-${generateDate()}`);
+
+  shell.exec(`git checkout -b ${fullBranchName}`);
 });
