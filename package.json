@@ -12,7 +12,7 @@
     "nx": "nx",
     "gcb": "node ./bin/checkout-branch.js",
     "gcm": "git add . && git-cz",
-    "release": "standard-version",
+    "release": "node ./bin/release.js",
     "commitlint": "commitlint"
   },
   "config": {
