@@ -30,4 +30,6 @@ inquirer.prompt([{
   const { branch } = result;
 
   shell.exec(`git merge ${branch}`);
+
+  shell.exec('yarn version');
 })

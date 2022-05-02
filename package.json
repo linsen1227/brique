@@ -1,6 +1,6 @@
 {
-  "name": "devops-fe",
-  "version": "0.0.4",
+  "name": "brique",
+  "version": "0.0.6",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
@@ -13,6 +13,7 @@
     "gcb": "node ./bin/checkout-branch.js",
     "gcm": "git add . && git-cz",
     "release": "node ./bin/release.js",
+    "version": "standard-version",
     "commitlint": "commitlint"
   },
   "config": {
